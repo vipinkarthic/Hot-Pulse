@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="HotPulse/HotPulse.vcxproj" Id="463262f6-2584-4745-99bd-49569079cc78" />
+</Solution>
