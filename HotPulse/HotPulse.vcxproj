@@ -131,9 +131,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <CudaCompile Include="kernels.cu" />
     <CudaCompile Include="main.cu">
       <FileType>Document</FileType>
     </CudaCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="input_reader.cpp" />
+    <ClCompile Include="module_loader.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="debug.h" />
+    <ClInclude Include="input_reader.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
