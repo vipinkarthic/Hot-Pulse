@@ -131,7 +131,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CudaCompile Include="kernels.cu" />
     <CudaCompile Include="main.cu">
       <FileType>Document</FileType>
     </CudaCompile>
@@ -143,6 +142,11 @@
   <ItemGroup>
     <ClInclude Include="debug.h" />
     <ClInclude Include="input_reader.h" />
+    <ClInclude Include="ptx_lexer.h" />
+    <ClInclude Include="ptx_parser.h" />
+    <ClInclude Include="ptx_parser_core.h" />
+    <ClInclude Include="ptx_parser_types.h" />
+    <ClInclude Include="ptx_parser_utils.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

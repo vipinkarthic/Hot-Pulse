@@ -18,7 +18,6 @@
     <CudaCompile Include="main.cu">
       <Filter>Source Files</Filter>
     </CudaCompile>
-    <CudaCompile Include="kernels.cu" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="module_loader.cpp">
@@ -33,6 +32,21 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="input_reader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ptx_lexer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ptx_parser_types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ptx_parser_utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ptx_parser_core.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ptx_parser.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
